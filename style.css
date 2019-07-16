@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  nav, section {
+    background-color: grey;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 1% 0;
+  }
+  
+  header, footer {
+    background-color: lightgrey;
+  }
+  
+  header {
+    padding: 30%;
+  }
+  
+  section {
+    padding: 30% 0;
+    min-height: 200px;
+  }
+  
+  footer {
+    padding: 1% 0;
+  }
