@@ -152,6 +152,73 @@
     margin-bottom: 10%;
   }
   
+  /*contact page CSS*/
+  form {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+  
+  .contact-name, .contact-email, .contact-message {
+    color: #FFFFFF;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+  }
+  
+  .submit-button {
+    margin-left: 75%;
+  }
+  
+  p {
+    color: #949494;
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+  }
+  
+  .message-box {
+    display: flex;
+    line-height: 6em;
+    width: 75%;
+    float: right;
+  }
+  
+  .name-box, .email-box {
+    display: flex;
+    width: 75%;
+    float: right;
+  }
+  
+  .contact-links2 {
+    font-family: 'Darker Grotesque', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    font-weight: bold;
+  }
+  
+  a.contact-links2 {
+    text-decoration: none;
+    color: #6600FF;
+  }
+  
+  a.contact-links2:hover {
+    color: #FFFFFF;
+  }
+  
+  a.contact-links2:active {
+    color: #008080;
+  }
+  
+  .additional-contact {
+    margin: 20% 10%;
+  }
+  
   
   @media only screen and (min-width: 850px){
     nav {

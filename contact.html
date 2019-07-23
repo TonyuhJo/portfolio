@@ -5,24 +5,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Darker+Grotesque|Montserrat|Oswald&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav role="navigation">
-      Nav Bar
+      <img src="images/myLogo.png" alt="Logo" class="logo">
+      <ul class="navigation-links">
+        <li><a href="/index.html" class="nav-link" class="home">Home</a> | </li>
+        <li><a href="/projects.html" class="nav-link" class="projects">Projects</a> | </li>
+        <li><a href="/contact.html" class="nav-link" class="contact">Contact</a> | </li>
+      </ul>
     </nav>
-    <main role="main">
-      <header role="contact-me">
-        A brief invitation to contact me.
+    <main role="main" class="main">
+      <header role="introduction" class="headline">
+        <h1>Wanna know more?</h1>
+        <h2>Feel free to contact me!</h2>
       </header>
-      <section>
-        <form role="contact-form">
-          Insert contact form here 
+      <section class="contact-me">
+        <form action="none-yet">
+          <p class="contact-name">Name: <input type="text" name="name" class="name-box" required></p>
+          <p class="contact-email">Email: <input type="email" name="email" class ="email-box" required></p>
+          <p class="contact-message">Message: <input type="text" name="message" class="message-box" required></p>
+          <input type="submit" value="Submit" class="submit-button">
         </form>
-        <button role="submit">Submit</button>
+      </section>
+      <section class="additional-contact">
+        <p>You can also shoot me an <a href="mailto:tonya.stombaugh@gmail.com" target="_blank" class="contact-links2">email</a>, connect with me on <a href="https://www.linkedin.com/in/tonya-stombaugh-34394518a/" target="_blank" class="contact-links2">LinkedIn</a>, or  check out my <a href="https://github.com/TonyuhJo" target="_blank" class="contact-links2">GitHub</a>.
       </section>
     </main>
     <footer role="contact-links">
-      Footer
+      <a href="https://github.com/TonyuhJo" target="_blank"><img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="GitHub Icon" class="icon"></a>
+      <a href="https://www.linkedin.com/in/tonya-stombaugh-34394518a/" target="_blank"><img src="http://cdn.onlinewebfonts.com/svg/download_24814.png" alt="LinkedIn Icon" class="icon"></a>
+      <a href="mailto:tonya.stombaugh@gmail.com" target="_blank"><img src="https://www.stickpng.com/assets/images/58485698e0bb315b0f7675a8.png" alt="Email Icon" class="icon"></a>
     </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>
