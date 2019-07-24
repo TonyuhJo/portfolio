@@ -9,7 +9,7 @@ function showHome(){
         </section>`);
   }
   
-  function showProjects(){
+function showProjects(){
     $('.main').html(`<section class="column1">
           <img src="images/STApp1.png" alt="Stranger Things App Screenshot" class="project-SS">
           <p class="project-name">Stranger Things Quiz App</p>
@@ -44,7 +44,7 @@ function showHome(){
         </section>`);
   }
   
-  function showContact(){
+function showContact(){
     $('.main').html(`<header role="introduction" class="headline">
           <h1>Wanna know more?</h1>
           <h2>Feel free to contact me!</h2>
@@ -62,28 +62,28 @@ function showHome(){
         </section>`);
   }
   
-  function renderHome(){
+function renderHome(){
     $('.home').click(function(event){
       showHome();
     })
   }
   
-  function renderProjects(){
+function renderProjects(){
     $('.projects').click(function(event){
       showProjects();
     })
   }
   
-  function renderContact(){
+function renderContact(){
     $('.contact').click(function(event){
       showContact();
     })
   }
   
-  function loadSite(){
+function loadSite(){
     renderHome();
     renderProjects();
     renderContact();
   }
   
-  $(loadSite);
+$(loadSite);
