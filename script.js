@@ -63,19 +63,19 @@ function showContact(){
   }
   
 function renderHome(){
-    $('.home').click(function(event){
+    $('.home').on('click', function(event){
       showHome();
     })
   }
   
 function renderProjects(){
-    $('.projects').click(function(event){
+    $('.projects').on('click', function(event){
       showProjects();
     })
   }
   
 function renderContact(){
-    $('.contact').click(function(event){
+    $('.contact').on('click', function(event){
       showContact();
     })
   }
