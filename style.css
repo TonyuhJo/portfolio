@@ -161,16 +161,31 @@
   }
   
   .contact-name, .contact-email, .contact-message {
-    color: #FFFFFF;
+    color: #949494;
     font-family: 'Darker Grotesque', sans-serif;
     font-size: 18px;
     letter-spacing: 0.5px;
     line-height: 1.2;
     margin-bottom: 10px;
+    margin-right: 20px;
   }
   
   .submit-button {
-    margin-left: 75%;
+    margin-left: 80%;
+    margin-top: 10px;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1px;
+  }
+  
+  .submit-button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+  }
+  
+  .submit-button:active {
+    background-color: #008080;
   }
   
   p {
@@ -181,10 +196,10 @@
     line-height: 1.2;
   }
   
-  .message-box {
+  textarea {
     display: flex;
-    line-height: 6em;
     width: 75%;
+    height: 100px;
     float: right;
   }
   
@@ -216,7 +231,7 @@
   }
   
   .additional-contact {
-    margin: 20% 10%;
+    margin: 15% 10% 20% 10%;
   }
   
   
@@ -313,6 +328,20 @@
     .column2 {
       float: right;
       width: 40%;
+    }
+  
+    /*contact page CSS*/
+    form {
+      margin-left: 20%;
+      margin-top: 5%;
+      width: 70%;
+    }
+  
+    .additional-contact {
+      margin-left: 22%;
+      margin-top: 5%;
+      margin-bottom: 5%;
+      width: 70%;
     }
   
     
