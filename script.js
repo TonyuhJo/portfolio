@@ -16,8 +16,8 @@ function showProjects(){
           <p class="project-description">Test your knowledge of the Netflix Original series, Stranger Things, with this web app.</p>
           <p class="created-with">HTML, CSS, JavaScript, jQuery</p>
           <ul class="project-links">
-            <li class="proj-link"><a href="https://tonyuhjo.github.io/stranger-things-quiz/" class="proj-link">Live Site</a> | </li>
-            <li class="proj-link"><a href="https://github.com/TonyuhJo/stranger-things-quiz" class="proj-link">GitHub Repo</a></li>
+            <li class="proj-link"><a href="https://tonyuhjo.github.io/stranger-things-quiz/" target="_blank" class="proj-link">Live Site</a> | </li>
+            <li class="proj-link"><a href="https://github.com/TonyuhJo/stranger-things-quiz" target="_blank" class="proj-link">GitHub Repo</a></li>
           </ul>
         </section>
         
@@ -27,8 +27,8 @@ function showProjects(){
           <p class="project-description">Test your knowledge of the Netflix Original series, Stranger Things, with this web app.</p>
           <p class="created-with">HTML, CSS, JavaScript, jQuery</p>
           <ul class="project-links">
-            <li class="proj-link"><a href="https://tonyuhjo.github.io/stranger-things-quiz/" class="proj-link">Live Site</a> | </li>
-            <li class="proj-link"><a href="https://github.com/TonyuhJo/stranger-things-quiz" class="proj-link">GitHub Repo</a></li>
+            <li class="proj-link"><a href="https://tonyuhjo.github.io/stranger-things-quiz/" target="_blank" class="proj-link">Live Site</a> | </li>
+            <li class="proj-link"><a href="https://github.com/TonyuhJo/stranger-things-quiz" target="_blank" class="proj-link">GitHub Repo</a></li>
           </ul>
         </section>
   
@@ -38,8 +38,8 @@ function showProjects(){
           <p class="project-description">Test your knowledge of the Netflix Original series, Stranger Things, with this web app.</p>
           <p class="created-with">HTML, CSS, JavaScript, jQuery</p>
           <ul class="project-links">
-            <li class="proj-link"><a href="https://tonyuhjo.github.io/stranger-things-quiz/" class="proj-link">Live Site</a> | </li>
-            <li class="proj-link"><a href="https://github.com/TonyuhJo/stranger-things-quiz" class="proj-link">GitHub Repo</a></li>
+            <li class="proj-link"><a href="https://tonyuhjo.github.io/stranger-things-quiz/" target="_blank" class="proj-link">Live Site</a> | </li>
+            <li class="proj-link"><a href="https://github.com/TonyuhJo/stranger-things-quiz" target="_blank" class="proj-link">GitHub Repo</a></li>
           </ul>
         </section>`);
   }
