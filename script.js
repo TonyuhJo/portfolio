@@ -1,5 +1,5 @@
 function showHome(){
-    $('.main').html(`<header role="introduction" class="headline">
+    $('.main').html(`<header class="headline">
           <h1>Hey there!</h1>
           <h2>My name is Tonya, and I'm an aspiring fullstack web developer.</h2>
         </header>
@@ -45,7 +45,7 @@ function showProjects(){
   }
   
 function showContact(){
-    $('.main').html(`<header role="introduction" class="headline">
+    $('.main').html(`<header class="headline">
     <h1>Wanna know more?</h1>
     <h2>Feel free to contact me!</h2>
   </header>
