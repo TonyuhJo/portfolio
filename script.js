@@ -46,20 +46,20 @@ function showProjects(){
   
 function showContact(){
     $('.main').html(`<header role="introduction" class="headline">
-          <h1>Wanna know more?</h1>
-          <h2>Feel free to contact me!</h2>
-        </header>
-        <section class="contact-me">
-          <form action="none-yet">
-            <p class="contact-name">Name: <input type="text" name="name" class="name-box" required></p>
-            <p class="contact-email">Email: <input type="email" name="email" class ="email-box" required></p>
-            <p class="contact-message">Message: <textarea type="text" name="message" class="message-box" required></textarea></p>
-            <input type="submit" value="Submit" class="submit-button">
-          </form>
-        </section>
-        <section class="additional-contact">
-          <p>You can also shoot me an <a href="mailto:tonya.stombaugh@gmail.com" target="_blank" class="contact-links2">email</a>, connect with me on <a href="https://www.linkedin.com/in/tonya-stombaugh-34394518a/" target="_blank" class="contact-links2">LinkedIn</a>, or  check out my <a href="https://github.com/TonyuhJo" target="_blank" class="contact-links2">GitHub</a>.
-        </section>`);
+    <h1>Wanna know more?</h1>
+    <h2>Feel free to contact me!</h2>
+  </header>
+  <section class="contact-me">
+    <form action="none-yet">
+      <p class="contact-name">Name: <input type="text" name="name" class="name-box" required></p>
+      <p class="contact-email">Email: <input type="email" name="email" class ="email-box" required></p>
+      <p class="contact-message">Message: <input type="text" name="message" class="message-box" required></p>
+      <input type="submit" value="Submit" class="submit-button">
+    </form>
+  </section>
+  <section class="additional-contact">
+    <p>You can also shoot me an <a href="mailto:tonya.stombaugh@gmail.com" target="_blank" class="contact-links2">email</a>, connect with me on <a href="https://www.linkedin.com/in/tonya-stombaugh-34394518a/" target="_blank" class="contact-links2">LinkedIn</a>, or  check out my <a href="https://github.com/TonyuhJo" target="_blank" class="contact-links2">GitHub</a>.
+  </section>`);
   }
   
 function renderHome(){
