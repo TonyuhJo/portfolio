@@ -53,7 +53,7 @@ function showContact(){
     <form action="none-yet">
       <p class="contact-name">Name: <input type="text" name="name" class="name-box" required></p>
       <p class="contact-email">Email: <input type="email" name="email" class ="email-box" required></p>
-      <p class="contact-message">Message: <input type="text" name="message" class="message-box" required></p>
+      <p class="contact-message">Message: <textarea type="text" name="message" class="message-box" required></p>
       <input type="submit" value="Submit" class="submit-button">
     </form>
   </section>
