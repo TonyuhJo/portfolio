@@ -19,29 +19,9 @@ function showProjects(){
             <li class="proj-link"><a href="https://tonyuhjo.github.io/stranger-things-quiz/" target="_blank" class="proj-link">Live Site</a> | </li>
             <li class="proj-link"><a href="https://github.com/TonyuhJo/stranger-things-quiz" target="_blank" class="proj-link">GitHub Repo</a></li>
           </ul>
-        </section>
-        
-        <section class="column2">
-          <img src="images/STApp1.png" alt="Stranger Things App Screenshot" class="project-SS">
-          <p class="project-name">Stranger Things Quiz App</p>
-          <p class="project-description">Test your knowledge of the Netflix Original series, Stranger Things, with this web app.</p>
-          <p class="created-with">HTML, CSS, JavaScript, jQuery</p>
-          <ul class="project-links">
-            <li class="proj-link"><a href="https://tonyuhjo.github.io/stranger-things-quiz/" target="_blank" class="proj-link">Live Site</a> | </li>
-            <li class="proj-link"><a href="https://github.com/TonyuhJo/stranger-things-quiz" target="_blank" class="proj-link">GitHub Repo</a></li>
-          </ul>
-        </section>
-  
-        <section class="column1">
-          <img src="images/STApp1.png" alt="Stranger Things App Screenshot" class="project-SS">
-          <p class="project-name">Stranger Things Quiz App</p>
-          <p class="project-description">Test your knowledge of the Netflix Original series, Stranger Things, with this web app.</p>
-          <p class="created-with">HTML, CSS, JavaScript, jQuery</p>
-          <ul class="project-links">
-            <li class="proj-link"><a href="https://tonyuhjo.github.io/stranger-things-quiz/" target="_blank" class="proj-link">Live Site</a> | </li>
-            <li class="proj-link"><a href="https://github.com/TonyuhJo/stranger-things-quiz" target="_blank" class="proj-link">GitHub Repo</a></li>
-          </ul>
-        </section>`);
+        </section>`
+        //use section class="column2" for right column
+        );
   }
   
 function showContact(){
