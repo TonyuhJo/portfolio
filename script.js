@@ -19,6 +19,16 @@ function showProjects(){
             <li class="proj-link"><a href="https://tonyuhjo.github.io/stranger-things-quiz/" target="_blank" class="proj-link">Live Site</a> | </li>
             <li class="proj-link"><a href="https://github.com/TonyuhJo/stranger-things-quiz" target="_blank" class="proj-link">GitHub Repo</a></li>
           </ul>
+        </section>
+        <section class="column2">
+          <img src="images/brewHoundSS.png" alt="BrewHound App Screenshot" class="project-SS">
+          <p class="project-name">BrewHound Web App</p>
+          <p class="project-description">Search for breweries across the country by city, state, or type with this web app.</p>
+          <p class="created-with">HTML, CSS, JavaScript, jQuery</p>
+          <ul class="project-links">
+            <li class="proj-link"><a href="https://tonyuhjo.github.io/brewhound/" target="_blank" class="proj-link">Live Site</a> | </li>
+            <li class="proj-link"><a href="https://github.com/TonyuhJo/brewhound" target="_blank" class="proj-link">GitHub Repo</a></li>
+          </ul>
         </section>`
         //use section class="column2" for right column
         );
